@@ -18,7 +18,22 @@
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>emailjs.init("Ql9fdB8-80sRNy095");</script>
+
+    <style>
+      mark.search-highlight {
+        background-color: #f4a803;
+        color: #fff;
+        border-radius: 3px;
+        padding: 0 2px;
+      }
+    </style>
+
   </head>
+
+
 
 <body>
 
@@ -46,19 +61,19 @@
                         <h1>Luban</h1>
                     </a>
                     <!-- ***** Logo End ***** -->
-                    <!-- ***** Serach Start ***** -->
+                   <!-- ***** Search Start ***** -->
                     <div class="search-input">
-                      <form id="search" action="#">
-                        <input type="text" placeholder="Type Something" id='searchText' name="searchKeyword" onkeypress="handle" />
+                      <form id="search" action="#" onsubmit="return false;">
+                        <input type="text" placeholder="Search..." id="searchText" name="searchKeyword" />
                         <i class="fa fa-search"></i>
                       </form>
                     </div>
+                    <!-- ***** Search End ***** -->
                     <!-- ***** Serach Start ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
                       <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                      <li class="scroll-to-section"><a href="#services">Programs</a></li>
-                      <li class="scroll-to-section"><a href="#team">Leadership</a></li>
+                      <li class="scroll-to-section"><a href="#services">Events</a></li>
                       <li class="scroll-to-section"><a href="#contact">Contact Us</a></li>
                   </ul>   
                     <a class='menu-trigger'>
@@ -125,11 +140,11 @@
         <div class="col-lg-4 col-md-6">
           <div class="service-item">
             <div class="icon">
-              <img src="assets/images/service-01.png" alt="hands-on events">
+              <img src="assets/images/service-01.png" alt="paper trading">
             </div>
             <div class="main-content">
-              <h4>Hands-On Events</h4>
-              <p>Students explore business through paper trading, economic market simulations, stock pitch competitions, and market discussions that build teamwork, research, and decision-making skills.</p>
+              <h4>Paper Trading Simulation</h4>
+              <p>Contestants are given one to three months to trade paper stocks and simulate a real market environment, building research, decision-making, and investing skills in a risk-free setting.</p>
               <div class="main-button">
                 <a href="#">Read More</a>
               </div>
@@ -139,11 +154,11 @@
         <div class="col-lg-4 col-md-6">
           <div class="service-item">
             <div class="icon">
-              <img src="assets/images/service-02.png" alt="post-secondary blueprint">
+              <img src="assets/images/service-02.png" alt="stock pitch competition">
             </div>
             <div class="main-content">
-              <h4>Post-Secondary Blueprint</h4>
-              <p>Luban helps students understand university pathways, admission requirements, application timelines, and specialization options through roadmap sessions, fireside chats, and Q&amp;As.</p>
+              <h4>Stock Pitch Competition</h4>
+              <p>Students enter in groups of 2–4 to pitch a Luban-assigned company before industry professionals. Competitors develop teamwork and the analytical skills used daily in finance careers.</p>
               <div class="main-button">
                 <a href="#">Read More</a>
               </div>
@@ -153,11 +168,11 @@
         <div class="col-lg-4 col-md-6">
           <div class="service-item">
             <div class="icon">
-              <img src="assets/images/service-03.png" alt="career pathfinder and mentorship">
+              <img src="assets/images/service-03.png" alt="economic market simulation">
             </div>
             <div class="main-content">
-              <h4>Career Pathfinder &amp; Mentorship</h4>
-              <p>Through finance education, internship preparation, AMAs, coffee chat pairings, and industry networking, students gain practical direction for future careers.</p>
+              <h4>Economic Market Simulation</h4>
+              <p>Teams navigate a shifting market scenario designed to test economic principles, strategic thinking, and adaptability — with full creative freedom to respond as conditions evolve.</p>
               <div class="main-button">
                 <a href="#">Read More</a>
               </div>
@@ -243,28 +258,22 @@
         <div class="col-lg-12">
           <div class="wrapper">
             <div class="row">
-              <div class="col-lg-3 col-md-6">
+              <div class="col-lg-4 col-md-4">
                 <div class="counter">
                   <h2 class="timer count-title count-number" data-to="4" data-speed="1000"></h2>
                   <p class="count-text">Core Program Pillars</p>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-6">
+              <div class="col-lg-4 col-md-4">
                 <div class="counter">
                   <h2 class="timer count-title count-number" data-to="18" data-speed="1000"></h2>
                   <p class="count-text">Current Core Members</p>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-6">
-                <div class="counter">
+              <div class="col-lg-4 col-md-4">
+                <div class="counter end">
                   <h2 class="timer count-title count-number" data-to="100" data-speed="1000"></h2>
                   <p class="count-text">Target National Volunteers by 2028</p>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6">
-                <div class="counter end">
-                  <h2 class="timer count-title count-number" data-to="2028" data-speed="1000"></h2>
-                  <p class="count-text">Long-Term Expansion Goal</p>
                 </div>
               </div>
             </div>
@@ -272,9 +281,10 @@
         </div>
       </div>
     </div>
+  </div>
 </div>
 
-  <div class="team section" id="team">
+  <!-- <div class="team section" id="team">
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-md-6">
@@ -335,9 +345,9 @@
         </div>
       </div>
     </div>
-  </div> 
+  </div>  -->
 
-  <div class="section testimonials">
+  <!-- <div class="section testimonials">
     <div class="container">
       <div class="row">
         <div class="col-lg-7">
@@ -377,7 +387,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div class="contact-us section" id="contact">
     <div class="container">
@@ -391,16 +401,16 @@
         </div>
         <div class="col-lg-6">
           <div class="contact-us-content">
-            <form id="contact-form" action="" method="post">
+            <form id="contact-form" onsubmit="sendEmail(event)">
               <div class="row">
                 <div class="col-lg-12">
                   <fieldset>
-                    <input type="name" name="name" id="name" placeholder="Your Name..." autocomplete="on" required>
+                    <input type="text" name="name" id="name" placeholder="Your Name..." autocomplete="on" required>
                   </fieldset>
                 </div>
                 <div class="col-lg-12">
                   <fieldset>
-                    <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your E-mail..." required="">
+                    <input type="email" name="email" id="email" placeholder="Your E-mail..." required>
                   </fieldset>
                 </div>
                 <div class="col-lg-12">
@@ -437,6 +447,71 @@
   <script src="assets/js/owl-carousel.js"></script>
   <script src="assets/js/counter.js"></script>
   <script src="assets/js/custom.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      document.getElementById('searchText').addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          const query = this.value.trim().toLowerCase();
+          if (!query) return;
 
+          // Remove any previous highlights
+          document.querySelectorAll('.search-highlight').forEach(el => {
+            el.outerHTML = el.innerHTML;
+          });
+
+          // Elements to search through
+          const searchableElements = document.querySelectorAll('p, h2, h4, h6, .accordion-body');
+          let firstMatch = null;
+
+          searchableElements.forEach(el => {
+            const text = el.innerHTML;
+            const regex = new RegExp(`(${query})`, 'gi');
+            if (regex.test(el.textContent)) {
+              el.innerHTML = el.innerHTML.replace(regex, '<mark class="search-highlight">$1</mark>');
+              if (!firstMatch) firstMatch = el;
+            }
+          });
+
+          // Scroll to first match
+          if (firstMatch) {
+            firstMatch.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          } else {
+            alert('No results found for "' + query + '"');
+          }
+
+          this.value = '';
+        }
+      });
+    });
+  </script>
+
+  <script>
+    function sendEmail(e) {
+      e.preventDefault();
+
+      const btn = document.getElementById("form-submit");
+      btn.innerText = "Sending...";
+      btn.disabled = true;
+
+      const params = {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        message: document.getElementById("message").value,
+      };
+
+      emailjs.send("service_15ofg9r", "template_wbgu902", params)
+        .then(() => {
+          btn.innerText = "Message Sent!";
+          document.getElementById("contact-form").reset();
+        })
+        .catch((err) => {
+          console.error(err);
+          btn.innerText = "Failed. Try Again.";
+          btn.disabled = false;
+        });
+    }
+  </script>
   </body>
 </html>
+
