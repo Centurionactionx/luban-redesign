@@ -107,6 +107,10 @@ body {
   color: #fff;
 }
 
+.margin-top-20 {
+  margin-top: 20px !important;
+}
+
 .section {
   padding-top: 30px;
   margin-top: 120px;
@@ -788,8 +792,8 @@ Services Style
 }
 
 .services .service-item .icon {
-  width: 190px;
-  height: 190px;
+  width: 180px;
+  height: 180px;
   display: inline-block;
   text-align: center;
   line-height: 190px;
@@ -807,7 +811,7 @@ Services Style
 
 .services .service-item .main-content {
   border-radius: 25px;
-  padding: 80px 30px 50px 30px;
+  padding: 80px 30px 10px 30px;
   background-color: #f1f0fe;
   margin-bottom: 30px;
   margin-right: 80px;
