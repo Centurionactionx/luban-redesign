@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script>emailjs.init("Ql9fdB8-80sRNy095");</script>
@@ -28,6 +28,19 @@
         color: #fff;
         border-radius: 3px;
         padding: 0 2px;
+      }
+
+      .live-banner {
+        background: linear-gradient(90deg, #f4a803, #ff6b35);
+        color: #fff;
+        text-align: center;
+        font-weight: 700;
+        padding: 14px 20px;
+        border-radius: 14px;
+        margin: 0 auto 30px auto;
+        max-width: 720px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+        letter-spacing: 0.4px;
       }
     </style>
 
@@ -54,43 +67,33 @@
         <div class="row">
             <div class="col-12">
                 <nav class="main-nav">
-                    <!-- ***** Logo Start ***** -->
                     <a href="index.html" class="logo">
                         <h1>Luban</h1>
                     </a>
-                    <!-- ***** Logo End ***** -->
-                   <!-- ***** Search Start ***** -->
                     <div class="search-input">
                       <form id="search" action="#" onsubmit="return false;">
                         <input type="text" placeholder="Search..." id="searchText" name="searchKeyword" />
                         <i class="fa fa-search"></i>
                       </form>
                     </div>
-                    <!-- ***** Search End ***** -->
-                    <!-- ***** Serach Start ***** -->
-                    <!-- ***** Menu Start ***** -->
                     <ul class="nav">
                       <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
                       <li class="scroll-to-section has-sub">
                         <a href="#services">Events</a>
                         <ul class="sub-menu">
-                          <li><a href="#services">Paper Trading Simulation</a></li>
-                          <li><a href="#services">Stock Pitch Competition</a></li>
-                          <li><a href="#services">Economic Market Simulation</a></li>
+                          <li><a href="spc.html">SPC</a></li>
                         </ul>
                       </li>
                       <li class="scroll-to-section"><a href="#contact">Contact Us</a></li>
-                  </ul>   
+                  </ul>
                     <a class='menu-trigger'>
                         <span>Menu</span>
                     </a>
-                    <!-- ***** Menu End ***** -->
                 </nav>
             </div>
         </div>
     </div>
   </header>
-  <!-- ***** Header Area End ***** -->
 
   <div class="main-banner" id="top">
     <div class="container">
@@ -129,6 +132,10 @@
       <div class="section-heading">
         <h2 style="text-align: center;">Planned Event Types</h2>
       </div>
+
+      <a href="spc.html" class="spc-button">
+      SPC Competition is Live — Click for Details
+      </a>
       
       <div class="row">
         <div class="col-lg-4 col-md-6">
@@ -139,10 +146,8 @@
             <div class="main-content">
               <h4>Paper Trading Simulation</h4>
               <p>Contestants are given one to three months to trade paper stocks and simulate a real market environment, building research, decision-making, and investing skills in a risk-free setting.</p>
-              
             </div>
           </div>
-          
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="service-item">
@@ -152,7 +157,6 @@
             <div class="main-content">
               <h4>Stock Pitch Competition</h4>
               <p>Students enter in groups of 2–4 to pitch a Luban-assigned company before industry professionals. Competitors develop teamwork and the analytical skills used daily in finance careers.</p>
-              
             </div>
           </div>
         </div>
@@ -164,7 +168,6 @@
             <div class="main-content">
               <h4>Economic Market Simulation</h4>
               <p>Teams navigate a shifting market scenario designed to test economic principles, strategic thinking, and adaptability — with full creative freedom to respond as conditions evolve.</p>
-              
             </div>
           </div>
         </div>
@@ -271,117 +274,11 @@
       </div>
     </div>
   </div>
-</div>
-
-  <!-- <div class="team section" id="team">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-6">
-          <div class="team-member">
-            <div class="main-content">
-              <img src="assets/images/member-01.jpg" alt="Johnny Sun">
-              <span class="category">Founder &amp; President</span>
-              <h4>Jonny Sun</h4>
-              <ul class="social-icons">
-                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="team-member">
-            <div class="main-content">
-              <img src="assets/images/member-01.jpg" alt="Finance Department">
-              <span class="category">Vice President</span>
-              <h4>Lebron James</h4>
-              <ul class="social-icons">
-                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="team-member">
-            <div class="main-content">
-              <img src="assets/images/member-01.jpg" alt="Outreach Department">
-              <span class="category">Vice President</span>
-              <h4>Lebron James</h4>
-              <ul class="social-icons">
-                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="team-member">
-            <div class="main-content">
-              <img src="assets/images/member-01.jpg" alt="Marketing and Events Departments">
-              <span class="category">Vice Presidents</span>
-              <h4>Lebron James</h4>
-              <ul class="social-icons">
-                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>  -->
-
-  <!-- <div class="section testimonials">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-7">
-          <div class="owl-carousel owl-testimonials">
-            <div class="item">
-              <p>“Luban helps students explore business firsthand instead of choosing a future path blindly. Through real exposure, students gain clarity about what they want to pursue.”</p>
-              <div class="author">
-                <img src="assets/images/member-01.jpg" alt="Hands-On Learning">
-                <span class="category">Hands-On Events</span>
-                <h4>Paper Trading &amp; Simulations</h4>
-              </div>
-            </div>
-            <div class="item">
-              <p>“From university roadmaps to admission officer Q&amp;As, Luban gives students the information and connections they need to prepare confidently for post-secondary education.”</p>
-              <div class="author">
-                <img src="assets/images/member-01.jpg" alt="Post-Secondary Blueprint">
-                <span class="category">Post-Secondary Blueprint</span>
-                <h4>University Guidance</h4>
-              </div>
-            </div>
-            <div class="item">
-              <p>“With mentorship, coffee chats, and industry AMAs, Luban opens doors that many students would not normally have access to, helping them build confidence and professional direction.”</p>
-              <div class="author">
-                <img src="assets/images/member-01.jpg" alt="Mentorship">
-                <span class="category">Mentorship</span>
-                <h4>Career Connections</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-5 align-self-center">
-          <div class="section-heading">
-            <h6>OUR IMPACT</h6>
-            <h2>What makes Luban different?</h2>
-            <p>We combine structured education, university planning, professional exposure, and mentorship so students can understand their goals and learn how to achieve them step by step.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
 
   <div class="contact-us section" id="contact">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6  align-self-center">
+        <div class="col-lg-6 align-self-center">
           <div class="section-heading">
             <h6>Contact Us</h6>
             <h2>Connect with Luban</h2>
@@ -428,8 +325,6 @@
     </div>
   </footer>
 
-  <!-- Scripts -->
-  <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
   <script src="assets/js/isotope.min.js"></script>
@@ -444,17 +339,14 @@
           const query = this.value.trim().toLowerCase();
           if (!query) return;
 
-          // Remove any previous highlights
           document.querySelectorAll('.search-highlight').forEach(el => {
             el.outerHTML = el.innerHTML;
           });
 
-          // Elements to search through
           const searchableElements = document.querySelectorAll('p, h2, h4, h6, .accordion-body');
           let firstMatch = null;
 
           searchableElements.forEach(el => {
-            const text = el.innerHTML;
             const regex = new RegExp(`(${query})`, 'gi');
             if (regex.test(el.textContent)) {
               el.innerHTML = el.innerHTML.replace(regex, '<mark class="search-highlight">$1</mark>');
@@ -462,7 +354,6 @@
             }
           });
 
-          // Scroll to first match
           if (firstMatch) {
             firstMatch.scrollIntoView({ behavior: 'smooth', block: 'center' });
           } else {
@@ -471,6 +362,33 @@
 
           this.value = '';
         }
+      });
+    });
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const navLinks = document.querySelectorAll('.nav a[href^="#"]');
+
+      navLinks.forEach(link => {
+        link.addEventListener('click', function (e) {
+          const targetId = this.getAttribute('href');
+          const target = document.querySelector(targetId);
+
+          if (target) {
+            e.preventDefault();
+
+            const header = document.querySelector('.header-area');
+            const headerHeight = header ? header.offsetHeight : 0;
+            const targetPosition =
+              target.getBoundingClientRect().top + window.pageYOffset - headerHeight - 10;
+
+            window.scrollTo({
+              top: targetPosition,
+              behavior: 'smooth'
+            });
+          }
+        });
       });
     });
   </script>
@@ -501,6 +419,5 @@
         });
     }
   </script>
-  </body>
+</body>
 </html>
-
