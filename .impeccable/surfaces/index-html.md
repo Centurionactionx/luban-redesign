@@ -11,18 +11,18 @@ related_targets: ["assets/css/home.css","assets/js/home.js"]
 
 - Primary target: `index.html`; related implementation targets: `assets/css/home.css`, `assets/js/home.js`.
 - Persuade surface for Canadian high-school students first, with educators, sponsors, mentors, admissions officers, and industry professionals as secondary visitors.
-- Job: explain Luban's purpose, make the four active program pillars concrete, establish credible scale, and route visitors to event details or contact.
-- Primary action: explore the four programs. Secondary action: contact Luban.
-- Proof/content: the existing mission, program lists, FAQ, vision/about copy, and exact 4 / 18 / 100-by-2028 facts. Keep the 100 figure visibly framed as a goal.
+- Job: explain Luban's purpose, make current teaching and competitions concrete, establish credible scale, and route visitors to event details or contact.
+- Primary action: explore events. Secondary action: contact Luban.
+- Proof/content: the existing mission and FAQ; the supplied entrepreneurship lesson summaries and states; exact 18 / 100-by-2028 organization facts. Keep the 100 figure visibly framed as a goal.
 - Constraints: static HTML/CSS/vanilla JS; preserve EmailJS integration; no invented outcomes, testimonials, dates, or partner claims; accessible for likely minor users; responsive from 320px upward.
 
 ## Chosen direction
 
-- Direction: Signal Poster Wall, Composition A, refined as a centered purple poster sheet.
-- Approved comp: `.impeccable/mocks/signal-wall-a.webp`.
-- Thesis: Luban behaves like a civic opportunity noticeboard whose four active programs are the visual language, not decorative cards around a generic nonprofit hero.
-- Memorable moment: the first viewport pairs a calm mission rail with a 2x2 interactive wall of indexed program posters; each poster has its own geometric signal and responds as one piece of a shared wall.
-- Do not literalize: mockup-invented program summaries or the line "Luban was founded...". Production must use the existing verified copy and lists.
+- Direction: Event Newsroom, retaining the approved centered purple poster-sheet system.
+- Visual reference: `.impeccable/mocks/signal-wall-a.webp` remains evidence for the ruled sheet, palette, and editorial density rather than for the removed program wall.
+- Thesis: Luban behaves like a civic opportunity noticeboard whose real events, dates, and lesson states are the visual language, not decorative cards around a generic nonprofit hero.
+- Memorable moment: a two-state entrepreneurship lesson switcher turns dates, status, recap, and preview into the editorial centerpiece.
+- Do not literalize: mockup-invented outcomes, attendees, prize amounts, or registration status. Production must use supplied or verified facts.
 
 ## Comp-derived system
 
@@ -32,23 +32,21 @@ related_targets: ["assets/css/home.css","assets/js/home.js"]
 - Line weights: 1px structural rules, 2px focus/active rules, 4-8px intentional poster bars.
 - Elevation: flat; no card shadows. Sticky navigation is separated by a rule and opaque paper field.
 - Type ramp: approachable grotesk in regular/medium weights; wordmark 28-32px, H1 clamp 44-68px, section headings 34-48px, card headings 24-34px, body 16-19px, labels 12-14px. No ultra-bold display treatment.
-- Motion: one hero-wall system only—grid-snapped emphasis, motif movement, and an active-poster reveal. No autoplay, scroll-jacking, or ornamental continuous motion; reduced-motion removes transforms.
+- Motion: immediate, functional state changes only. No autoplay, scroll-jacking, or ornamental continuous motion.
 
 ## Visible ingredient inventory
 
 | Ingredient | Composition commitment | Production medium |
 | --- | --- | --- |
-| Navigation | Luban wordmark; Home, Programs, About, Contact; mobile menu | Semantic HTML + CSS + vanilla JS |
+| Navigation | Luban wordmark; Home, Events with Teaching Lessons/SPC/Econ dropdown, About, Contact Us; mobile disclosure menu; no search | Semantic HTML + CSS + vanilla JS |
 | Mission rail | Student-facing headline, mission paragraph, and two rectangular actions | Semantic HTML + CSS |
-| Program wall | Four readable 2x2 posters with indexes and actual program names/lists | Buttons/articles + CSS Grid + vanilla JS |
-| Poster geometry | Plum/indigo/berry arcs, bars, stripes, and ruled seams | CSS borders and inline SVG; no gradients |
-| Active poster | Plum 2px inset focus frame and shared-wall response | CSS state + semantic links + vanilla JS |
-| Primary action | Solid plum rectangular caption with directional arrow and direct jump to Programs | Anchor + CSS; full-size focus treatment |
-| Metrics band | 4, 18, and 100 by 2028 with no plus signs | Semantic list + CSS Grid |
-| Program directory | Four detailed programs in a compact 2x2 ruled matrix, then one column on smaller screens | Semantic articles + CSS Grid |
-| Purpose/program/FAQ/about/contact sections | Continue the same rules, asymmetry, and medium density without reverting to generic rounded cards | Semantic sections + CSS Grid + native details/form controls |
+| Teaching lessons | Discovering Entrepreneurship recap and Am I an Entrepreneur? preview in an accessible two-tab switcher with explicit event-state labels and full-width action footers | Semantic buttons/articles + vanilla JS; complete no-JS fallback |
+| Primary action | Solid purple rectangular action with directional arrow and direct jump to Events | Anchor + CSS; full-size focus treatment |
+| Metrics band | 2 August lessons, 18 members, and 100 by 2028 with no plus signs | Semantic list + CSS Grid |
+| Purpose/events/FAQ/about/contact sections | Continue the same rules, asymmetry, and medium density without reverting to generic rounded cards | Semantic sections + CSS Grid + native details/form controls |
 
 ## Unresolved decisions
 
 - Privacy, safeguarding, guardian-consent, and data-retention policy remain product/legal decisions. Do not imply policies that do not yet exist.
-- The application/event pages remain outside this surface change and may keep their current legacy styling.
+- The year for the August teaching lessons remains unspecified; display month/day/time and the user-supplied completed/upcoming state without machine-calculated status.
+- Dedicated SPC and Economics pages use the shared competition-dossier system documented in `DESIGN.md` and their own surface briefs. The homepage routes to them through Events and does not duplicate their full timelines, partners, prizes, or requirements.
