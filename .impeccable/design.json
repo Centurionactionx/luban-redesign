@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-10T06:19:15.8619885Z",
+  "title": "Design System: Luban",
+  "extensions": {
+    "colorMeta": {
+      "white-canvas": {
+        "role": "neutral",
+        "displayName": "White Canvas",
+        "canonical": "#ffffff",
+        "tonalRamp": ["oklch(15% 0 0)", "oklch(27% 0 0)", "oklch(39% 0 0)", "oklch(51% 0 0)", "oklch(63% 0 0)", "oklch(75% 0 0)", "oklch(87% 0 0)", "oklch(100% 0 0)"]
+      },
+      "paper-white": {
+        "role": "neutral",
+        "displayName": "Paper White",
+        "canonical": "#ffffff",
+        "tonalRamp": ["oklch(15% 0 0)", "oklch(27% 0 0)", "oklch(39% 0 0)", "oklch(51% 0 0)", "oklch(63% 0 0)", "oklch(75% 0 0)", "oklch(87% 0 0)", "oklch(100% 0 0)"]
+      },
+      "near-black": {
+        "role": "neutral",
+        "displayName": "Near Black",
+        "canonical": "#171717",
+        "tonalRamp": ["oklch(15% 0 0)", "oklch(27% 0 0)", "oklch(39% 0 0)", "oklch(51% 0 0)", "oklch(63% 0 0)", "oklch(75% 0 0)", "oklch(87% 0 0)", "oklch(95% 0 0)"]
+      },
+      "identity-plum": {
+        "role": "primary",
+        "displayName": "Identity Plum",
+        "canonical": "#694178",
+        "tonalRamp": ["oklch(15% 0.10 315)", "oklch(27% 0.10 315)", "oklch(39% 0.10 315)", "oklch(51% 0.10 315)", "oklch(63% 0.10 315)", "oklch(75% 0.10 315)", "oklch(87% 0.10 315)", "oklch(95% 0.10 315)"]
+      },
+      "civic-indigo": {
+        "role": "secondary",
+        "displayName": "Civic Indigo",
+        "canonical": "#3f5688",
+        "tonalRamp": ["oklch(15% 0.10 265)", "oklch(27% 0.10 265)", "oklch(39% 0.10 265)", "oklch(51% 0.10 265)", "oklch(63% 0.10 265)", "oklch(75% 0.10 265)", "oklch(87% 0.10 265)", "oklch(95% 0.10 265)"]
+      },
+      "grounded-berry": {
+        "role": "tertiary",
+        "displayName": "Grounded Berry",
+        "canonical": "#7b3d5d",
+        "tonalRamp": ["oklch(15% 0.09 340)", "oklch(27% 0.09 340)", "oklch(39% 0.09 340)", "oklch(51% 0.09 340)", "oklch(63% 0.09 340)", "oklch(75% 0.09 340)", "oklch(87% 0.09 340)", "oklch(95% 0.09 340)"]
+      },
+      "quiet-lavender": {
+        "role": "tertiary",
+        "displayName": "Quiet Lavender",
+        "canonical": "#d5cadc",
+        "tonalRamp": ["oklch(15% 0.03 315)", "oklch(27% 0.03 315)", "oklch(39% 0.03 315)", "oklch(51% 0.03 315)", "oklch(63% 0.03 315)", "oklch(75% 0.03 315)", "oklch(87% 0.03 315)", "oklch(95% 0.03 315)"]
+      },
+      "muted-paper": {
+        "role": "neutral",
+        "displayName": "Muted Violet Paper",
+        "canonical": "#e9e3ec",
+        "tonalRamp": ["oklch(15% 0.015 315)", "oklch(27% 0.015 315)", "oklch(39% 0.015 315)", "oklch(51% 0.015 315)", "oklch(63% 0.015 315)", "oklch(75% 0.015 315)", "oklch(87% 0.015 315)", "oklch(95% 0.015 315)"]
+      },
+      "status-blue": {
+        "role": "secondary",
+        "displayName": "Status Blue",
+        "canonical": "#355a7a",
+        "tonalRamp": ["oklch(15% 0.08 245)", "oklch(27% 0.08 245)", "oklch(39% 0.08 245)", "oklch(51% 0.08 245)", "oklch(63% 0.08 245)", "oklch(75% 0.08 245)", "oklch(87% 0.08 245)", "oklch(95% 0.08 245)"]
+      },
+      "error-burgundy": {
+        "role": "tertiary",
+        "displayName": "Error Burgundy",
+        "canonical": "#8a3348",
+        "tonalRamp": ["oklch(15% 0.12 15)", "oklch(27% 0.12 15)", "oklch(39% 0.12 15)", "oklch(51% 0.12 15)", "oklch(63% 0.12 15)", "oklch(75% 0.12 15)", "oklch(87% 0.12 15)", "oklch(95% 0.12 15)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Major section statements and editorial headings." },
+      "headline": { "displayName": "Headline", "purpose": "Program titles, FAQ summaries, and secondary statements." },
+      "body": { "displayName": "Body", "purpose": "Descriptions, lists, navigation, and form copy." },
+      "label": { "displayName": "Label", "purpose": "Indexes, form labels, and compact metadata." }
+    },
+    "shadows": [],
+    "motion": [
+      { "name": "poster-emphasis", "value": "260ms cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Moves the active poster signal without changing layout." },
+      { "name": "reduced-motion", "value": "none", "purpose": "Removes poster and navigation transforms when reduced motion is requested." }
+    ],
+    "breakpoints": [
+      { "name": "action-stack", "value": "480px" },
+      { "name": "poster-stack", "value": "640px" },
+      { "name": "facts-stack", "value": "767px" },
+      { "name": "nav-collapse", "value": "880px" },
+      { "name": "major-stack", "value": "1023px" },
+      { "name": "wide-adjustment", "value": "1180px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Action",
+      "kind": "button",
+      "refersTo": "action-primary",
+      "description": "The main action on a paper surface.",
+      "html": "<a class=\"ds-action-primary\" href=\"#\"><span>Explore programs</span><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\"><path d=\"M5 12h13M14 7l5 5-5 5\"></path></svg></a>",
+      "css": ".ds-action-primary{display:inline-flex;align-items:center;justify-content:space-between;gap:30px;min-width:188px;min-height:54px;padding:12px 18px;border:1px solid var(--plum,#694178);border-radius:0;background:var(--plum,#694178);color:var(--paper,#ffffff);font:500 16px/1.2 Barlow,sans-serif;text-decoration:none}.ds-action-primary svg{width:22px;fill:none;stroke:currentColor;stroke-width:1.7}.ds-action-primary:hover{border-color:var(--ink,#171717);background:var(--ink,#171717)}.ds-action-primary:focus-visible{outline:3px solid var(--paper,#ffffff);outline-offset:3px;box-shadow:0 0 0 6px var(--ink,#171717)}"
+    },
+    {
+      "name": "Secondary Action",
+      "kind": "button",
+      "refersTo": "action-secondary",
+      "description": "A ruled alternative when the main action already has priority.",
+      "html": "<a class=\"ds-action-secondary\" href=\"#\"><span>Get in touch</span><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\"><path d=\"M5 12h13M14 7l5 5-5 5\"></path></svg></a>",
+      "css": ".ds-action-secondary{display:inline-flex;align-items:center;justify-content:space-between;gap:30px;min-width:188px;min-height:54px;padding:12px 18px;border:1px solid var(--ink,#171717);border-radius:0;background:var(--paper,#ffffff);color:var(--ink,#171717);font:500 16px/1.2 Barlow,sans-serif;text-decoration:none}.ds-action-secondary svg{width:22px;fill:none;stroke:currentColor;stroke-width:1.7}.ds-action-secondary:hover{background:var(--indigo,#3f5688);color:var(--paper,#ffffff)}.ds-action-secondary:focus-visible{outline:3px solid var(--paper,#ffffff);outline-offset:3px;box-shadow:0 0 0 6px var(--ink,#171717)}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "A square, labeled field for contact and search forms.",
+      "html": "<label class=\"ds-field\"><span>Name</span><input type=\"text\" autocomplete=\"name\"></label>",
+      "css": ".ds-field{display:grid;gap:9px;color:var(--ink,#171717);font:600 13px/1.2 Barlow,sans-serif;letter-spacing:.07em;text-transform:uppercase}.ds-field input{min-height:52px;padding:13px 14px;border:1px solid var(--ink,#171717);border-radius:0;background:var(--paper,#ffffff);color:var(--ink,#171717);font:400 16px/1.4 Barlow,sans-serif}.ds-field input:hover{border-color:var(--indigo,#3f5688)}.ds-field input:focus-visible{outline:3px solid var(--paper,#ffffff);outline-offset:3px;box-shadow:0 0 0 6px var(--ink,#171717)}"
+    },
+    {
+      "name": "Program Panel",
+      "kind": "card",
+      "refersTo": "program-poster",
+      "description": "A ruled program summary with an index, action, and geometric signal.",
+      "html": "<article class=\"ds-program\"><span class=\"ds-program-index\">01 / 04</span><h3>Hands-On Events</h3><p>Practice with paper trading, market simulations, stock pitches, and debate.</p><a href=\"#\">See details</a><span class=\"ds-program-signal\" aria-hidden=\"true\"></span></article>",
+      "css": ".ds-program{position:relative;min-height:300px;padding:28px;overflow:hidden;border:1px solid var(--ink,#171717);border-radius:0;background:var(--paper,#ffffff);color:var(--ink,#171717);font:400 16px/1.45 Barlow,sans-serif}.ds-program-index{color:var(--plum,#694178);font-size:12px;font-weight:600;letter-spacing:.08em}.ds-program h3{max-width:9ch;margin:14px 0 18px;font:400 40px/.98 'Barlow Condensed',sans-serif}.ds-program p{max-width:24ch}.ds-program a{position:absolute;bottom:28px;left:28px;min-height:44px;padding:10px 0;border-bottom:1px solid currentColor;color:inherit;text-decoration:none}.ds-program-signal{position:absolute;right:-32px;bottom:-32px;width:120px;height:120px;border:28px solid var(--plum,#694178);border-radius:50%}.ds-program:hover .ds-program-signal{transform:translate(-8px,-6px) scale(1.05)}.ds-program:focus-within{outline:2px solid var(--plum,#694178);outline-offset:-8px}"
+    },
+    {
+      "name": "Navigation Link",
+      "kind": "nav",
+      "refersTo": "primary-navigation",
+      "description": "A quiet navigation item with a plum active rule.",
+      "html": "<a class=\"ds-nav-link\" href=\"#\" aria-current=\"page\">Programs</a>",
+      "css": ".ds-nav-link{position:relative;display:inline-grid;min-width:96px;min-height:68px;padding:0 22px;place-items:center;color:var(--ink,#171717);font:500 16px/1.2 Barlow,sans-serif;text-decoration:none}.ds-nav-link::after{position:absolute;right:22px;bottom:12px;left:22px;height:2px;background:var(--plum,#694178);content:'';transform:scaleX(0);transform-origin:left}.ds-nav-link:hover::after,.ds-nav-link[aria-current=page]::after{transform:scaleX(1)}.ds-nav-link:focus-visible{outline:3px solid var(--paper,#ffffff);outline-offset:3px;box-shadow:0 0 0 6px var(--ink,#171717)}"
+    },
+    {
+      "name": "FAQ Disclosure",
+      "kind": "custom",
+      "refersTo": "faq-disclosure",
+      "description": "A native disclosure row with a square plus mark.",
+      "html": "<details class=\"ds-faq\"><summary><span>How do our programs work?</span><span class=\"ds-faq-mark\" aria-hidden=\"true\">+</span></summary><p>Luban runs free events online and in person through four program pillars.</p></details>",
+      "css": ".ds-faq{border-top:1px solid var(--ink,#171717);border-bottom:1px solid var(--ink,#171717);color:var(--ink,#171717);font:400 16px/1.58 Barlow,sans-serif}.ds-faq summary{display:grid;grid-template-columns:1fr 32px;gap:20px;align-items:center;min-height:72px;padding:16px 0;cursor:pointer;font:500 28px/1.05 'Barlow Condensed',sans-serif;list-style:none}.ds-faq summary:hover{color:var(--plum,#694178)}.ds-faq-mark{display:grid;width:28px;height:28px;border:1px solid currentColor;place-items:center;font:400 20px/1 Barlow,sans-serif}.ds-faq p{max-width:60ch;padding:0 52px 26px 0;margin:0}.ds-faq summary:focus-visible{outline:3px solid var(--paper,#ffffff);outline-offset:3px;box-shadow:0 0 0 6px var(--ink,#171717)}"
+    },
+    {
+      "name": "Metric Cell",
+      "kind": "custom",
+      "refersTo": "metric-cell",
+      "description": "An exact fact with a large condensed value and plain label.",
+      "html": "<dl class=\"ds-metric\"><div><dt>Active program pillars</dt><dd>4</dd></div></dl>",
+      "css": ".ds-metric{margin:0;border:1px solid var(--ink,#171717);background:var(--paper,#ffffff);color:var(--ink,#171717)}.ds-metric div{display:grid;align-content:center;min-height:136px;padding:24px 32px}.ds-metric dt{font:500 15px/1.25 Barlow,sans-serif}.ds-metric dd{order:-1;margin:0 0 6px;color:var(--plum,#694178);font:500 68px/.8 'Barlow Condensed',sans-serif;letter-spacing:-.025em}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Civic Poster Sheet",
+    "overview": "Luban's pages should feel like a carefully assembled public noticeboard set on one centered sheet. The layout is easy for students to scan and composed enough to earn trust from educators, mentors, and partners. White paper, white margins, black rules, and condensed type give the site a clear voice without making it loud.\n\nInformation shapes the composition. Program names, lists, facts, and links sit inside a shared grid, while geometric marks help visitors recognize each area. The system stays flat and square. Space between the paper sections creates chapter breaks, and space inside a section keeps related ideas close.",
+    "keyCharacteristics": [
+      "White paper and white margins held together by black rules",
+      "Thin, continuous structural rules",
+      "Regular-weight condensed display typography",
+      "Plum, indigo, berry, and lavender signal colors",
+      "Geometric marks that carry information rather than fill space"
+    ],
+    "rules": [
+      { "name": "The Adjacent Hue Rule", "body": "Accent colors stay in the plum, indigo, berry, and lavender family; yellow and green do not enter the visual system.", "section": "colors" },
+      { "name": "The Signal Field Rule", "body": "An accent owns a complete shape, bar, action, or region. It never appears as a glow, atmospheric gradient, or decoration without a job.", "section": "colors" },
+      { "name": "The Moderate Voice Rule", "body": "Display type remains at regular weight. Scale, line breaks, and compression create hierarchy without extra-bold emphasis.", "section": "typography" },
+      { "name": "The Centered Sheet Rule", "body": "The white canvas and paper share one field. Black rules define the centered reading surface and keep content inside the shared width.", "section": "layout" },
+      { "name": "The Ruled Surface Rule", "body": "Structure comes from seams, borders, and color fields; shadows do not create hierarchy.", "section": "elevation" },
+      { "name": "The One Motion System Rule", "body": "Motion belongs to poster-signal emphasis only: 260ms ease-out transforms, with transforms removed for reduced motion.", "section": "components" }
+    ],
+    "dos": [
+      "Do keep every major paper surface inside the shared centered sheet.",
+      "Do use plum, indigo, berry, and lavender for distinct roles rather than interchangeable decoration.",
+      "Do use inline SVG for crisp geometric artwork and directional icons.",
+      "Do preserve 44px controls, the two-color focus ring, and reduced-motion behavior.",
+      "Do keep related program content tight and reserve the largest gaps for chapter changes."
+    ],
+    "donts": [
+      "Don't introduce yellow, green, gradients, neon glow, glass effects, pill containers, or ornamental shadows.",
+      "Don't remove the black outline that defines the centered website against the white margins.",
+      "Don't substitute generic stock photography or template cards for program-specific geometry.",
+      "Don't add a kicker above a heading or rely on extra-bold display type for hierarchy.",
+      "Don't add motion outside the poster wall without a clear system-level purpose."
+    ]
+  }
+}
