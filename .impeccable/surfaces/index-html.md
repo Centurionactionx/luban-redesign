@@ -13,7 +13,7 @@ related_targets: ["assets/css/home.css","assets/js/home.js"]
 - Persuade surface for Canadian high-school students first, with educators, sponsors, mentors, admissions officers, and industry professionals as secondary visitors.
 - Job: explain Luban's purpose, make current teaching and competitions concrete, establish credible scale, and route visitors to event details or contact.
 - Primary action: explore events. Secondary action: contact Luban.
-- Proof/content: the existing mission and FAQ; the supplied entrepreneurship lesson summaries and states; exact 18 / 100-by-2028 organization facts. Keep the 100 figure visibly framed as a goal.
+- Proof/content: the existing mission and FAQ; the supplied entrepreneurship lesson summaries and states; exact 5-events-in-four-months / 25-members / 100-by-2028 organization facts. Keep the 100 figure visibly framed as a goal.
 - Constraints: static HTML/CSS/vanilla JS; preserve EmailJS integration; no invented outcomes, testimonials, dates, or partner claims; accessible for likely minor users; responsive from 320px upward.
 
 ## Chosen direction
@@ -38,11 +38,11 @@ related_targets: ["assets/css/home.css","assets/js/home.js"]
 
 | Ingredient | Composition commitment | Production medium |
 | --- | --- | --- |
-| Navigation | Luban wordmark; Home, Events with Teaching Lessons/SPC/Econ dropdown, About, Contact Us; mobile disclosure menu; no search | Semantic HTML + CSS + vanilla JS |
+| Navigation | Luban wordmark; Home, Events with Teaching Lessons/Stock Pitch Competition/Econ dropdown, About, Contact Us; mobile disclosure menu; no search | Semantic HTML + CSS + vanilla JS |
 | Mission rail | Student-facing headline, mission paragraph, and two rectangular actions | Semantic HTML + CSS |
 | Teaching lessons | Discovering Entrepreneurship recap and Am I an Entrepreneur? preview in an accessible two-tab switcher with explicit event-state labels and full-width action footers | Semantic buttons/articles + vanilla JS; complete no-JS fallback |
 | Primary action | Solid purple rectangular action with directional arrow and direct jump to Events | Anchor + CSS; full-size focus treatment |
-| Metrics band | 2 August lessons, 18 members, and 100 by 2028 with no plus signs | Semantic list + CSS Grid |
+| Metrics band | 5 events completed in four months, 25 core members, and 100 by 2028 with no plus signs | Semantic list + CSS Grid |
 | Purpose/events/FAQ/about/contact sections | Continue the same rules, asymmetry, and medium density without reverting to generic rounded cards | Semantic sections + CSS Grid + native details/form controls |
 
 ## Unresolved decisions

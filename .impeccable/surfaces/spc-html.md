@@ -24,7 +24,7 @@ related_targets: ["assets/css/home.css","assets/css/competition.css","assets/js/
 
 ## Components and behavior
 
-- Shared header and footer with Events as the active parent and SPC as the lime `aria-current="page"` submenu item.
+- Shared header and footer with Events as the active parent and Stock Pitch Competition as the lime `aria-current="page"` submenu item.
 - Seven-to-five event masthead and mechanism brief; archive record chips; two rectangular actions; five-cell facts band. These branded elements retain Luban's ruled, boxy identity.
 - Below the opening group, one continuous white brief holds an open two-column practice list, an ordered published timeline, a two-to-one schedule with an intrinsic-height ten-minute-pitch aside, compact natural-height three-place award summaries, open two-column participation notes, and a dark archive close. Thin rules and section spacing provide hierarchy without outer boxes or manufactured empty height.
 - At 900px the masthead, schedule, and close stack and the fact band becomes two columns with its fifth item spanning the row. At 880px navigation collapses and participation notes become one column. At 720px features and awards become one column. At 640px section gutters and display sizes tighten. At 600px timeline date/body rows and supporting brief facts stack. At 480px actions and facts become one column. At 390px the body gutter becomes 20px. The page remains overflow-free at 320px.
@@ -41,5 +41,5 @@ related_targets: ["assets/css/home.css","assets/css/competition.css","assets/js/
 - Finish-review disposition: **SHIP after fixes**.
 - HTML validates; `assets/js/home.js` passes syntax checking; shared CSS is formatted; the page returns HTTP 200; browser errors are empty.
 - Desktop and mobile references: `.impeccable/review/spc-desktop.png` at 1440px and `.impeccable/review/spc-mobile.png` at 390px.
-- No horizontal overflow at 1440px, 390px, or 320px. The Events parent and lime SPC submenu state render correctly; mobile Menu, Events, and Escape behavior pass.
+- No horizontal overflow at 1440px, 390px, or 320px. The Events parent and lime Stock Pitch Competition submenu state render correctly; mobile Menu, Events, and Escape behavior pass.
 - The targeted axe audit of `main` reports 0 WCAG A/AA violations. No new raster assets were added for this page.

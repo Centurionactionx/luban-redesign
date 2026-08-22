@@ -55,7 +55,8 @@ The repository currently contains a text wordmark but no confirmed official logo
 ## Evidence on Hand
 
 - Luban is a registered nonprofit operating across multiple Canadian provinces, as confirmed by the organization in August 2026.
-- Luban has 18 current core members, as confirmed in August 2026.
+- Luban has 25 current core members, as confirmed in August 2026.
+- Luban has completed 5 events in the past four months.
 - StudyScope and the Canadian Foundation for Economic Education (CFEE) are current partners.
 - Luban has a stated target of 100 national volunteers by 2028.
 - The repository contains detailed historical materials for a Stock Pitch Competition and an economics simulation, including participant workflows, rules, schedules, and registration paths in `spc.html` and `econ.html`.

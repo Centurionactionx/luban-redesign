@@ -186,7 +186,7 @@ Containers, controls, and fields use square or four-pixel corners. The homepage 
 
 ### Navigation
 
-Desktop navigation is a thin ruled row with a two-pixel purple active line that follows the current section. Events carries Teaching Lessons, SPC, and Econ Competition in its dropdown, with hover/focus support on desktop and an explicit disclosure button on touch screens. On a competition page, Events remains the active parent and the current child is an ink-on-lime submenu item backed by `aria-current="page"`. At 880px the navigation becomes a full-width paper menu beneath the header; Menu and Events remain separate disclosures and Escape closes open navigation. Search is intentionally absent.
+Desktop navigation is a thin ruled row with a two-pixel purple active line that follows the current section. Events carries Teaching Lessons, Stock Pitch Competition, and Econ Competition in its dropdown, with hover/focus support on desktop and an explicit disclosure button on touch screens. On a competition page, Events remains the active parent and the current child is an ink-on-lime submenu item backed by `aria-current="page"`. At 880px the navigation becomes a full-width paper menu beneath the header; Menu and Events remain separate disclosures and Escape closes open navigation. Search is intentionally absent.
 
 ### Hero Illustration
 
@@ -194,15 +194,15 @@ The first view pairs the mission rail with one original education-and-economics 
 
 ### Event Newsroom
 
-The homepage Events section is deliberately limited to an overview and one separate teaching-lessons sheet. The accessible entrepreneurship lesson tabs stay attached to their matching recap or preview, with completed and upcoming event state written in text as well as color. Each tab includes a large bordered recap or preview action footer so the event selector reads as an interactive control. SPC and Economics Competition details live on their dedicated pages and remain available from the Events navigation dropdown. Without JavaScript, both lesson summaries remain readable; with JavaScript, the tablist uses roving keyboard focus and one visible panel.
+The homepage Events section is deliberately limited to an overview and one separate teaching-lessons sheet. The accessible entrepreneurship lesson tabs stay attached to their matching recap or preview, with completed and upcoming event state written in text as well as color. Each tab includes a large bordered recap or preview action footer so the event selector reads as an interactive control. Stock Pitch Competition and Economics Competition details live on their dedicated pages and remain available from the Events navigation dropdown. Without JavaScript, both lesson summaries remain readable; with JavaScript, the tablist uses roving keyboard focus and one visible panel.
 
 **The Honest State Rule.** Event state is stated in words, dates remain visible, and no registration or outcome is implied beyond supplied content. Interaction is immediate and does not depend on decorative motion.
 
 ### Competition Event Briefs
 
-SPC and Economics use one event-detail system. The opening group pairs a dominant event field with a quieter mechanism brief in a seven-to-five grid, then attaches a five-cell facts band. SPC uses an ink lead field with a lime signal; Economics uses an accessible-purple lead field with a pink signal. Lime remains the functional action and current-navigation color on both pages.
+Stock Pitch Competition and Economics use one event-detail system. The opening group pairs a dominant event field with a quieter mechanism brief in a seven-to-five grid, then attaches a five-cell facts band. Stock Pitch Competition uses an ink lead field with a lime signal; Economics uses an accessible-purple lead field with a pink signal. Lime remains the functional action and current-navigation color on both pages.
 
-After the opening group, later topics flow through one continuous white informational brief. Thin horizontal rules and deliberate vertical spacing identify sections without enclosing every topic in another card. Reusable patterns include open feature lists, ordered timelines with readable date/body relationships, a two-to-one schedule with an intrinsic-height supporting aside, compact natural-height awards, open partner lists, two-column participation notes, and a dark closing group. A page uses only the patterns its verified content supports: SPC carries its published prize structure, while Economics carries its named event partners.
+After the opening group, later topics flow through one continuous white informational brief. Thin horizontal rules and deliberate vertical spacing identify sections without enclosing every topic in another card. Reusable patterns include open feature lists, ordered timelines with readable date/body relationships, a two-to-one schedule with an intrinsic-height supporting aside, compact natural-height awards, open partner lists, two-column participation notes, and a dark closing group. A page uses only the patterns its verified content supports: Stock Pitch Competition carries its published prize structure, while Economics carries its named event partners.
 
 Competition pages with passed dates are archive surfaces. The hero record, schedule copy, and close state the historical status in words. They do not expose a live registration action. Current-event routing may lead back to the homepage Events section, to a verified contact address, or to a clearly described general Luban destination.
 
