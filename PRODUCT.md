@@ -39,11 +39,10 @@ Hands-on programming includes case competitions and interactive simulations. Par
 
 - All four program pillars are active: hands-on events, post-secondary guidance, career pathfinding, and mentorship.
 - Programming is free to participants and supports virtual and in-person delivery.
-- The website is a static HTML, CSS, and JavaScript project deployed through Vercel.
+- The website is a static HTML, CSS, and JavaScript project deployed through GitHub Pages.
 - Event registration currently depends on external services, including Google Forms and Linktree.
-- General inquiries and executive applications are delivered through EmailJS.
-- Some application workflows collect personal information from minors, including names, email addresses, grade levels, schools, portfolio links, and written statements.
-- Published April–June 2026 event and recruitment dates are historical and must not be presented as current without new confirmation.
+- General inquiries are delivered through EmailJS.
+- Published April–June 2026 event dates are historical and must not be presented as current without new confirmation.
 - Open decision: document the required privacy, safeguarding, parental-consent, data-retention, and accessibility standards for programs and data collection involving minors.
 
 ## Brand Commitments
@@ -60,7 +59,7 @@ The repository currently contains a text wordmark but no confirmed official logo
 - StudyScope and the Canadian Foundation for Economic Education (CFEE) are current partners.
 - Luban has a stated target of 100 national volunteers by 2028.
 - The repository contains detailed historical materials for a Stock Pitch Competition and an economics simulation, including participant workflows, rules, schedules, and registration paths in `spc.html` and `econ.html`.
-- Current website copy and program descriptions are available in `index.html`, `spc.html`, `econ.html`, and `apply.html`.
+- Current website copy and program descriptions are available in `index.html`, `spc.html`, and `econ.html`.
 - The repository does not contain formal registration documentation, outcome data, participant testimonials, case studies, press coverage, team biographies, partner authorization files, or confirmed event photography. Future work must not fabricate these forms of proof.
 
 ## Product Principles

@@ -2,7 +2,8 @@
 version: 1
 slug: "spc-html"
 primary_target: "spc.html"
-related_targets: ["assets/css/home.css","assets/css/competition.css","assets/js/home.js"]
+related_targets:
+  ["assets/css/home.css", "assets/css/competition.css", "assets/js/home.js"]
 ---
 
 # Stock Pitch Competition Surface Brief

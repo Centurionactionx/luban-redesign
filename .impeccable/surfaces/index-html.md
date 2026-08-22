@@ -2,7 +2,7 @@
 version: 1
 slug: "index-html"
 primary_target: "index.html"
-related_targets: ["assets/css/home.css","assets/js/home.js"]
+related_targets: ["assets/css/home.css", "assets/js/home.js"]
 ---
 
 # Homepage Surface Brief
@@ -36,14 +36,14 @@ related_targets: ["assets/css/home.css","assets/js/home.js"]
 
 ## Visible ingredient inventory
 
-| Ingredient | Composition commitment | Production medium |
-| --- | --- | --- |
-| Navigation | Luban wordmark; Home, Events with Teaching Lessons/Stock Pitch Competition/Econ dropdown, About, Contact Us; mobile disclosure menu; no search | Semantic HTML + CSS + vanilla JS |
-| Mission rail | Student-facing headline, mission paragraph, and two rectangular actions | Semantic HTML + CSS |
-| Teaching lessons | Discovering Entrepreneurship recap and Am I an Entrepreneur? preview in an accessible two-tab switcher with explicit event-state labels and full-width action footers | Semantic buttons/articles + vanilla JS; complete no-JS fallback |
-| Primary action | Solid purple rectangular action with directional arrow and direct jump to Events | Anchor + CSS; full-size focus treatment |
-| Metrics band | 5 events completed in four months, 25 core members, and 100 by 2028 with no plus signs | Semantic list + CSS Grid |
-| Purpose/events/FAQ/about/contact sections | Continue the same rules, asymmetry, and medium density without reverting to generic rounded cards | Semantic sections + CSS Grid + native details/form controls |
+| Ingredient                        | Composition commitment                                                                                                                                                | Production medium                                               |
+| --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| Navigation                        | Luban wordmark; Home, Events with Teaching Lessons/Stock Pitch Competition/Econ dropdown, About, Contact Us; mobile disclosure menu; no search                        | Semantic HTML + CSS + vanilla JS                                |
+| Mission rail                      | Student-facing headline, mission paragraph, and two rectangular actions                                                                                               | Semantic HTML + CSS                                             |
+| Teaching lessons                  | Discovering Entrepreneurship recap and Am I an Entrepreneur? preview in an accessible two-tab switcher with explicit event-state labels and full-width action footers | Semantic buttons/articles + vanilla JS; complete no-JS fallback |
+| Primary action                    | Solid purple rectangular action with directional arrow and direct jump to Events                                                                                      | Anchor + CSS; full-size focus treatment                         |
+| Metrics band                      | 5 events completed in four months, 25 core members, and 100 by 2028 with no plus signs                                                                                | Semantic list + CSS Grid                                        |
+| Events/FAQ/about/contact sections | Continue the same rules, asymmetry, and medium density without reverting to generic rounded cards                                                                     | Semantic sections + CSS Grid + native details/form controls     |
 
 ## Unresolved decisions
 

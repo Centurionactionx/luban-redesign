@@ -2,7 +2,8 @@
 version: 1
 slug: "econ-html"
 primary_target: "econ.html"
-related_targets: ["assets/css/home.css","assets/css/competition.css","assets/js/home.js"]
+related_targets:
+  ["assets/css/home.css", "assets/css/competition.css", "assets/js/home.js"]
 ---
 
 # Economics Competition Surface Brief
@@ -26,8 +27,8 @@ related_targets: ["assets/css/home.css","assets/css/competition.css","assets/js/
 
 - Shared header and footer with Events as the active parent and Econ Competition as the lime `aria-current="page"` submenu item.
 - Seven-to-five event masthead and simulation brief; archive record chips; two rectangular actions; five-cell facts band. These branded elements retain Luban's ruled, boxy identity.
-- Below the opening group, one continuous white brief holds an open two-column simulation list, an open content-fit two-part partner list, an ordered published timeline, a two-to-one schedule with an intrinsic-height entry aside, open two-column participation notes, and a dark archive close. Thin rules and section spacing provide hierarchy without outer boxes or manufactured empty height.
-- At 900px the masthead, schedule, and close stack and the fact band becomes two columns with its fifth item spanning the row. At 880px navigation collapses and participation notes become one column. At 720px features and partners become one column. At 640px section gutters and display sizes tighten. At 600px timeline date/body rows and supporting brief facts stack. At 480px actions and facts become one column. At 390px the body gutter becomes 20px. The page remains overflow-free at 320px.
+- Below the opening group, one continuous white brief holds an open two-column simulation list, an open content-fit two-part partner list, an ordered published timeline, a two-to-one schedule with an intrinsic-height entry aside, and a dark archive close. Thin rules and section spacing provide hierarchy without outer boxes or manufactured empty height.
+- At 900px the masthead, schedule, and close stack and the fact band becomes two columns with its fifth item spanning the row. At 880px navigation collapses. At 720px features and partners become one column. At 640px section gutters and display sizes tighten. At 600px timeline date/body rows and supporting brief facts stack. At 480px actions and facts become one column. At 390px the body gutter becomes 20px. The page remains overflow-free at 320px.
 - Do not restore fixed minimum heights, stretched side panels, or boxed requirement rows. Headlines and metadata labels use natural word wrapping with no mid-word breaks or automatic hyphenation.
 
 ## Actions, links, and accessibility
